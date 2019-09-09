@@ -1,0 +1,337 @@
+@media(min-width : 1200px) {
+
+    /***** ok *********/
+}
+
+@media(max-width : 1199px) and (min-width : 992px) {
+    html {
+        font-size: 17px;
+    }
+
+    .wrapper {
+        max-width: 1000px;
+        width: 96%;
+    }
+
+    /*********** header ************/
+    #hero h1 {
+        font-size: 2rem;
+    }
+
+    #hero h2 {
+        font-size: 1.5rem;
+    }
+
+    .footer-wrapper {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
+
+@media(max-width : 991px) and (min-width : 768px) {
+    html {
+        font-size: 16px;
+    }
+
+    .wrapper {
+        max-width: 780px;
+        width: 96%;
+    }
+
+    /*********** header ************/
+    header {
+        height: 7%;
+        align-items: flex-start;
+        overflow: hidden;
+    }
+
+    .header-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-list {
+        flex-direction: column;
+        margin: 2rem auto;
+    }
+
+    .expand {
+        padding: 5px 0;
+        height: max-content;
+    }
+
+    .humIcon {
+        position: fixed;
+        right: 30px;
+        display: flex;
+    }
+
+    /************* hero **************/
+    #hero h1 {
+        font-size: 2rem;
+    }
+
+    #hero h2 {
+        font-size: 1.5rem;
+    }
+
+    /*********** services ************/
+    .services-wrapper {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .service-item p {
+        padding: 0 2em;
+    }
+
+    .footer-wrapper {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media(max-width : 767px) and (min-width : 600px) {
+    html {
+        font-size: 14px;
+    }
+
+    .wrapper {
+        max-width: 620px;
+        width: 96%;
+    }
+
+    .service-item li {
+        font-size: 1.3rem
+    }
+
+    /*********** header ************/
+    header {
+        height: 7%;
+        align-items: flex-start;
+        overflow: hidden;
+    }
+
+    .header-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-list {
+        flex-direction: column;
+        margin: 2rem auto;
+    }
+
+    .expand {
+        padding: 5px 0;
+        height: max-content;
+    }
+
+    .humIcon {
+        position: fixed;
+        right: 30px;
+        display: flex;
+    }
+
+    /*********** HERO ************/
+    #hero h1 {
+        font-size: 1.8rem;
+    }
+
+    #hero h2 {
+        font-size: 1.3rem;
+    }
+
+    /*********** services ************/
+    .services-wrapper {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .service-item p {
+        padding: 0 2em;
+    }
+
+    /******** work ***************/
+    .work-wrapper {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .footer-wrapper {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media(max-width : 599px) and (min-width : 478px) {
+    html {
+        font-size: 13px;
+    }
+
+    .service-item li {
+        font-size: 1.3rem
+    }
+
+    /*********** header ************/
+    header {
+        height: 7%;
+        align-items: flex-start;
+        overflow: hidden;
+    }
+
+    .header-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-list {
+        flex-direction: column;
+        margin: 2rem auto;
+    }
+
+    .expand {
+        padding: 5px 0;
+        height: max-content;
+    }
+
+    .humIcon {
+        position: fixed;
+        right: 30px;
+        display: flex;
+    }
+
+    /*********** Hero ************/
+    #hero h1 {
+        font-size: 1.5rem;
+    }
+
+    #hero h2 {
+        font-size: 1.3rem;
+    }
+
+    /*********** services ************/
+    .services-wrapper {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .service-item p {
+        padding: 0 2em;
+    }
+
+    /******** work ***************/
+    #work h2 {
+        text-align: center;
+    }
+
+    .work-item {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .work-item h3 {
+        text-align: center;
+    }
+
+    .work-item .desc {
+        text-align: center;
+    }
+
+    .work-item .content {
+        text-align: center;
+    }
+
+    .work-wrapper {
+        grid-template-columns: 1fr;
+    }
+
+    /************* footer ************/
+    .footer-wrapper {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media(max-width : 477px) {
+    html {
+        font-size: 12px;
+    }
+
+    .wrapper {
+        width: 300px;
+    }
+
+    .service-item li {
+        font-size: 1.3rem
+    }
+
+    /*********** header ************/
+    header {
+        height: 7%;
+        align-items: flex-start;
+        overflow: hidden;
+    }
+
+    .header-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-list {
+        flex-direction: column;
+        margin: 2rem auto;
+    }
+
+    .expand {
+        padding: 5px 0;
+        height: max-content;
+    }
+
+    .humIcon {
+        position: fixed;
+        right: 30px;
+        display: flex;
+    }
+
+    /*********** Hero ************/
+    #hero h1 {
+        font-size: 1.2rem;
+    }
+
+    #hero h2 {
+        font-size: 1.1rem;
+    }
+
+    /*********** services ************/
+    .services-wrapper {
+        grid-template-columns: 1fr;
+    }
+
+    .service-item p {
+        padding: 0 2em;
+    }
+
+    /******** work ***************/
+    #work h2 {
+        text-align: center;
+    }
+
+    .work-item h3 {
+        text-align: center;
+    }
+
+    .work-item .desc {
+        text-align: center;
+    }
+
+    .work-item .content {
+        text-align: center;
+    }
+
+    .work-wrapper {
+        grid-template-columns: 1fr;
+    }
+
+    /************* footer ************/
+    .footer-wrapper {
+        grid-template-columns: 1fr;
+    }
+
+    #b-footer p {
+        width: 90%;
+    }
+}
